@@ -23,4 +23,4 @@ jobs:
       - name: Create Identity & Generate Reward Link
         run: |
           node scripts/createNewEthereumIdentity.js
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "mudassir12 work", "description": "precious work and precious products in Nigeria"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "mudassir work", "description": "Precious work and precious productions in Nigeria"}'
